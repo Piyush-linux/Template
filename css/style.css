@@ -11,13 +11,10 @@ nav ul{
 	justify-content: center;
 }
 nav li{
-	padding: 1em;
 	margin-bottom: 0;
+	padding: 1em;
 }
-nav li:hover{
-	background-color:#48dbfb;
-	color:white;
-}
+
 nav a{
 	color:#48586f;
 	text-decoration: none;
@@ -44,17 +41,17 @@ footer{
 	align-items: center;
 	
 }
-.iconify{
+footer .iconify{
 	width: 1.7em;
 	height: 1.7em;
 	margin-left: 10px;
 	margin-right: 10px;
 	color:white;
 }
-a{
+footer a{
 	transition: .2s;
 }
-a:hover{
+footer a:hover{
 	padding: .8em;
 	transition: .3s;
 }
