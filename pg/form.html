@@ -10,47 +10,50 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
 	<!-- style -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
 </head>
 <body>
 	<div class="container">
-		<!-- navbar -->
-		<nav>
-			<ul>
-				<li><a href="index.html" title="">Home</a></li>
-				<li><a href="./pg/form.html" title="">About</a></li>
-				<li><a href="./pg/about.html" title="">Blog</a></li>
-			</ul>
-		</nav>
+		 <!-- navbar -->
+    <nav>
+        <ul>
+            <li><a href="../index.html" title="HOME">Home</a></li>
+            <li><a href="pg/form.html" title="HOME">Form</a></li>
+        </ul>
+    </nav>
 		<!-- form -->
-		<div class="row">
 			<h1 align="center">F O R M</h1>
+		<form>
+			
+		<div class="row">
 			<div class="six columns" style="margin-left: 0;">
-					<input type="text" name="name" class="u-full-width" placeholder="name">
+					<input type="text" name="name" class="u-full-width" placeholder="name" required>
 			</div>
 			<div class="six columns">
-					<input type="text" name="name" class="u-full-width" placeholder="email">
+					<input type="text" name="name" class="u-full-width" placeholder="email" required>
 			</div>
 		</div>
 		<div class="row">
-				<textarea class="u-full-width">Feedback...</textarea>
+				<textarea class="u-full-width" placeholder="Feedback..."></textarea>
 		</div>
-		<hr>
-		<div class="u-full-width" align="center">
-		<a href="./minimal.html"><div class="button">MINIMAL</div></a>
+		<div class="row" align="center">
+			<button type="submit" class="button button-primary">SUBMIT</button>
 		</div>
-		<hr>
-		<!-- footer -->
-		<footer>
-			<a href="">
-			<span class="iconify" data-icon="bi:twitter" data-inline="false"></span>
-			</a>
-			<a href="">
-			<span class="iconify" data-icon="bi:github" data-inline="false"></span>
-			</a>
-			<a href="">
-			<span class="iconify" data-icon="bi:instagram" data-inline="false"></span>
-			</a>
-		</footer>
+		</form>
+		 <!-- footer -->
+    <footer>
+    	<ul>
+    		<li>
+    			<a href="#"><span class="iconify" data-icon="akar-icons:twitter-fill" data-inline="false"></span></a>
+    		</li>
+    		<li>
+    			<a href="#"><span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span></a>
+    		</li>
+    		<li>
+    			<a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill" data-inline="false"></span></a>
+    		</li>
+    	</ul>
+    </footer>
 	</div>
 </body>
 </html>
