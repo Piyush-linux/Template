@@ -66,10 +66,14 @@
         border: 3px dashed #34495e;
         margin-left: 1em;
         margin-right: 1em;
+        width: auto;
+        height: auto;
     }
     footer li:hover{
-        border: 5px solid #34495e;
-        padding: .5em;
+        border: 3px solid white;
+        /*padding: .5em;*/
+        background-color: white;
+        transition:.3s;
     }
     footer a{
     	/*color:white;*/
