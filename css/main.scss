@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=IBM+Plex+Mono:wght@300;400&display=swap');
+$ff1:Bungee;
+$ff2:IBM Plex Mono;
+$red:#e74c3c;
+$green:#1abc9c;
+$white:#ecf0f1;
+
+
+
+#res .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: $green;
+
+    h1 {
+        font-family: Bungee;
+        color: $white;
+    }
+
+    h4 {
+        color: $white;
+        font-weight: lighter;
+    }
+}
+
+#res .gallery{
+	margin-top: 2rem;
+	img{
+		width: 100%;
+		// min-height: 10vw;
+		// max-height: 20%;
+		box-shadow: 7px 7px 10px 1px grey;
+		margin-bottom: 2rem;
+		border-radius: 7px;
+	}
+	p{
+		font-family: $ff2;
+		font-weight: bolder;
+		// font-size: 1.7vw;
+
+	}
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	img{
+		width: 50%;
+		height:80vw;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 550px) {
+	img{
+		height:30vw;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	img{
+		height:300px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	img{
+		height:300px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	img{
+		height:300px;
+	}
+}
